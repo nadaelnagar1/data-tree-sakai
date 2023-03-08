@@ -5,11 +5,21 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "watch": "vue-cli-service build --watch"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "draggable": "^4.2.0",
+    "npm-watch": "^0.11.0",
+    "primeflex": "^3.3.0",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.23.0",
+    "vue": "^3.2.13",
+    "vue-chartjs": "^5.2.0",
+    "vuedraggable": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -32,7 +42,9 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {
+      "vue/multi-word-component-names": "off"
+    }
   },
   "browserslist": [
     "> 1%",
