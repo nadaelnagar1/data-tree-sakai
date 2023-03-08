@@ -46,7 +46,6 @@ export default {
     <div class="col-12">
       <div class="card">
         <h2>Tree</h2>
-        
 
         <div>
           <Button
@@ -64,17 +63,17 @@ export default {
             >Collapse all</Button
           >
         </div>
-        
+
         <Tree
           :value="nodes"
-           selectionMode="multiple"
+          selectionMode="multiple"
           v-model:selectionKeys="selectedKeys3"
           v-model:expandedKeys="expandedKeys"
           scrollHeight="200px"
-          :filter="true" filterMode="strict"
+          :filter="true"
+          filterMode="strict"
         >
-        
-       </Tree>
+        </Tree>
       </div>
     </div>
   </div>
